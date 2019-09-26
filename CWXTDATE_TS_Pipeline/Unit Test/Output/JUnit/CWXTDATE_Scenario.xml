@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.5.1.v20190606-1245_92?>
-<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 20, 2019 5:39:49 AM-->
+<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 26, 2019 2:46:54 AM-->
 <testsuites>
-  <testsuite errors="0" failures="0" name="CWXTDATE_TS_Pipeline.CWXTDATE_Scenario.00001: CWXTDATECase1" tests="8">
+  <testsuite errors="0" failures="1" name="CWXTDATE_TS_Pipeline.CWXTDATE_Scenario.00001: CWXTDATECase1" tests="8">
     <testcase classname="CWXTDATE_TS_Pipeline.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00001: Check for EOM_SW"/>
-    <testcase classname="CWXTDATE_TS_Pipeline.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00002: Check for YRS_OF_SERVICE"/>
+    <testcase classname="CWXTDATE_TS_Pipeline.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00002: Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    19
+
+Expected Value:  = 0</failure>
+    </testcase>
     <testcase classname="CWXTDATE_TS_Pipeline.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_TS_Pipeline.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00004: Check for RUN_MM"/>
     <testcase classname="CWXTDATE_TS_Pipeline.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00005: Check for RUN_DD"/>
